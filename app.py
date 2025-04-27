@@ -18,7 +18,7 @@ with open('kmeans_model.pkl', 'rb') as f:
     loaded_model = pickle.load(f)
 
 # Set the title
-st.title("K-Means Clustering Visualizer by Saw San Nyunt Win")
+st.title("K-Means Clustering Visualizer by Khun Min Khant Zaw")
 
 # Generate synthetic dataset
 X, _ = make_blobs(n_samples=300, centers=loaded_model.n_clusters, cluster_std=0.60, random_state=0)
